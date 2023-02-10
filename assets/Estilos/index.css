@@ -8,26 +8,34 @@ body{
     background-color: brown;
 }
 
-main{
-   
-    display:inline-block;
-    padding: 0;
-    text-align: center;
-    position: relative;
+header{
+    background-image: url(../img/design1_image1.jpg);
+    width: 100vw;
+    position: absolute;
+    
+
+}
+
+h1{
+    position: static;
+    
+}
+
+nav{
     background-color: antiquewhite;
+
+}
+a{
+    background-color: blue;
+    background: hover;
+    
 }
 
-.figure{
-    box-sizing: border-box;
-}
-
-#img_jugador1{
-width: 100%;
-height: 100%;
+.img_fechas{
+    width: 35vh;
 }
 
 #img_logo{
-width: 70px;
-/* display: block;
-display: center; */
+    width: 70px;
+
 }
