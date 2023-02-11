@@ -1,41 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: brown;
-}
 
-header{
+
+.cabeza-body {
     background-image: url(../img/design1_image1.jpg);
-    width: 100vw;
-    position: absolute;
-    
-
+    background-repeat: round;
+    background-size: cover;
+    width: 100%;
 }
 
-h1{
-    position: static;
+h1 {
+    position: top;
+    bottom: 85px;
+    position: relative;
+    color: black;
     
+}
+
+#img_logo {
+    width: 70px;
+    position: relative;
+    top: 10vw;
+    left: 80vw;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    top: 25px;
+    text-align: center;
+
 }
 
 nav{
-    background-color: antiquewhite;
-
-}
-a{
-    background-color: blue;
-    background: hover;
-    
-}
-
-.img_fechas{
-    width: 35vh;
+    /* display:inline-block; */
+    display: inline-grid;
+    font-size: 18px;
+    padding-top: 15vw;
+    padding-left: 10vw;
+    position: absolute;
+    width: 35px;
 }
 
-#img_logo{
-    width: 70px;
 
+
+a:hover {
+    background-color: #675151;
+
+}
+
+nav a {
+    color: blue;
+    padding: 8px 14px;
+}
+
+a[href="#"] {
+    color:black;
+
+}
+
+.block_fecha {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: left;
+    text-align: right;
+    padding-right: 5vw;
+}
+
+.img_fechas {
+    margin-top: 13px;
+    width: 25vh;
+    padding-block: 15px;
+
+}
+
+.contenido_fecha {
+    margin-top: 25px;
+    position: relative;
+
+
+}
+p {
+    color:black;
 }
