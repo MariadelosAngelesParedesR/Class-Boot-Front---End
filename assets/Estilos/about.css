@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.cabeza-body {
+    background-image: url(../img/design1_image1.jpg);
+    background-repeat: round;
+    background-size: cover;
+    width: 100%;
+}
+
+h1 {
+    position: top;
+    bottom: 85px;
+    position: relative;
+    color: black;
+    
+}
+
+#img_logo {
+    width: 70px;
+    position: relative;
+    top: 10vw;
+    left: 80vw;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    top: 25px;
+    text-align: center;
+
+}
+
+nav{
+    /* display:inline-block; */
+    display: inline-grid;
+    font-size: 18px;
+    padding-top: 7vw;
+    padding-left: 10vw;
+    position: absolute;
+    width: 35px;
+}
+
+
+
+a:hover {
+    background-color: #675151;
+
+}
+
+nav a {
+    color: blue;
+    padding: 8px 14px;
+}
+
+a[href="#"] {
+    color:black;
+
+}
+
+.contenido_mision{
+    position: relative;
+
+}
+
+p {
+    color:black;
+}
