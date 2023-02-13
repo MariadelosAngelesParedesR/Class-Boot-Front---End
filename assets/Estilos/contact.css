@@ -61,11 +61,21 @@ a[href="#"] {
 
 }
 
-.contenido_mision{
-    position: relative;
+.contenido_contacto{
+    position: absolute;
+    top: 200px;
+    left: 224px;
 
 }
 
-p {
-    color:black;
+h4{
+    text-align: left;
+    margin-top: 9px;
+
+}
+
+.email{
+    text-decoration: underline;
+    color: blue;
+
 }

@@ -18,7 +18,7 @@ h1 {
     bottom: 85px;
     position: relative;
     color: black;
-    
+
 }
 
 #img_logo {
@@ -36,13 +36,14 @@ h2 {
 
 }
 
-nav{
+nav {
     /* display:inline-block; */
     display: inline-grid;
     font-size: 18px;
     padding-top: 7vw;
     padding-left: 10vw;
     position: absolute;
+    margin-top: 54px;
     width: 35px;
 }
 
@@ -59,16 +60,17 @@ nav a {
 }
 
 a[href="#"] {
-    color:black;
+    color: black;
 
 }
 
 .block_fecha {
-    margin-top: 5px;
+    margin-top: 101px;
     padding: 5px;
-    text-align: left;
-    text-align: right;
-    padding-right: 5vw;
+    position: absolute;
+    text-align: end;
+    top: 13vw;
+    left: 47vw;
 }
 
 .img_fechas {
@@ -84,6 +86,7 @@ a[href="#"] {
 
 
 }
+
 p {
-    color:black;
+    color: black;
 }
