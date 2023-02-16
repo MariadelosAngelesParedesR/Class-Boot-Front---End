@@ -90,3 +90,20 @@ a[href="#"] {
 p {
     color: black;
 }
+
+.tabla_game{
+    background-color: #675151;
+    table-layout: fixed;
+    width: 299px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+}
+
+.encabezado_tabla{
+    border: 3px solid black;
+}
+
+.cuerpo_tabla{
+    border: 2px solid black;
+}
