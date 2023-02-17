@@ -1,3 +1,5 @@
+/*Estilos generales para cada pagina*/
+
 * {
     margin: 0;
     padding: 0;
@@ -14,16 +16,20 @@
 }
 
 h1 {
-    position: top;
+    display: inline-block;
     bottom: 85px;
-    position: relative;
+    
     color: black;
 
 }
 
 #img_logo {
     width: 70px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
     top: 10vw;
     left: 80vw;
 }
@@ -41,10 +47,10 @@ nav {
     display: inline-grid;
     font-size: 18px;
     padding-top: 7vw;
-    padding-left: 10vw;
-    position: absolute;
-    margin-top: 54px;
-    width: 35px;
+    padding-left: 13vw;
+    /* flex: content; */
+    /* margin-top: 54px; */
+    /* width: 35px; */
 }
 
 
@@ -91,13 +97,97 @@ p {
     color: black;
 }
 
+main{
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 126px;
+    margin-left: 143px;  */
+    
+}
+
+h5{
+    text-decoration: dashed;
+}
+
+/*Estilo de About*/
+
+.contenido_mision{
+    display: inline-flex;
+    margin-right: 2px;
+    /* top: 200px;
+    left: 224px; */
+    float: right;
+    margin-right: 2px;
+    padding: 25vw;
+
+}
+
+h4{
+    color:black;
+    margin-top: 18px;
+}
+
+
+.mision_about {
+    text-align: justify;
+    color:black;
+    margin-top: 10px;
+
+}
+
+/*Estilo de Contact*/
+
+.contenido_contacto{
+    display: inline-flex;
+    margin-left: 47px;
+
+}
+
+.contact_h4{
+    text-align: left;
+    margin-top: 9px;
+
+}
+
+.email{
+    text-decoration: underline;
+    color: blue;
+
+}
+
+
+/*Estilo Game*/
+
 .tabla_game{
-    background-color: #675151;
+    background-color: rgb(228, 224, 234);
+    display: table;
+    width: 60vw;
+    height: 30vh;
+    border-collapse: collapse; /*junta todos los bordes, comparte, no los separa*/
+    border: 1px solid black;
+    border-radius: 6px;
+    /* border-collapse:separate;
+    border-spacing: 20px; distancia entre los bordes de las celdas */
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+
+  
+}
+
+th,td {
+    border: 1px solid black;
+}
+.F_9sep{
+    border: none;
+}
+
+    /*background-color: #675151;
     table-layout: fixed;
     width: 299px;
     border-collapse: collapse;
     border: 3px solid black;
-    
 }
 
 .encabezado_tabla{
@@ -106,4 +196,28 @@ p {
 
 .cuerpo_tabla{
     border: 2px solid black;
+} */
+
+.contenedor_rules{
+    display: inline;
+    float: right;
+    padding: 55px;
+    writing-mode: horizontal-tb;
+    justify-content: space-around;
+    text-align: justify;
+    width: 70vw;
+}
+.contenedor_rules_1{
+    display: block;
+    padding: 15px;
+}
+
+.contenedor_rules_2{
+    display: block;
+    padding: 15px;
+}
+
+.contenedor_rules_3{
+    display: block;
+    padding: 15px;
 }
