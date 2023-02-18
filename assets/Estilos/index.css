@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #ffffff;
 }
 
 
@@ -114,12 +119,10 @@ h5{
 
 .contenido_mision{
     display: inline-flex;
+    float: none;
     margin-right: 2px;
-    /* top: 200px;
-    left: 224px; */
-    float: right;
-    margin-right: 2px;
-    padding: 25vw;
+    width: 60vw;
+    overflow: visible;
 
 }
 
@@ -162,6 +165,7 @@ h4{
 .tabla_game{
     background-color: rgb(228, 224, 234);
     display: table;
+    
     width: 60vw;
     height: 30vh;
     border-collapse: collapse; /*junta todos los bordes, comparte, no los separa*/
