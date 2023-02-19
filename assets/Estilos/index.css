@@ -20,23 +20,26 @@ body{
     width: 100%;
 }
 
+
+
+
 h1 {
     display: inline-block;
     bottom: 85px;
-    
     color: black;
 
+}
+.container-img-logo{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 6%;
+    
 }
 
 #img_logo {
     width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-   
-    top: 10vw;
-    left: 80vw;
+    
 }
 
 h2 {
@@ -76,25 +79,25 @@ a[href="#"] {
 }
 
 .block_fecha {
-    margin-top: 101px;
+    margin-top: 30px;
+    margin-right: 30px;
     padding: 5px;
-    position: absolute;
+    display: inline-block;
     text-align: end;
-    top: 13vw;
-    left: 47vw;
+    float: right;
 }
 
 .img_fechas {
     margin-top: 13px;
     width: 25vh;
-    padding-block: 15px;
+    align-content: flex-end;
 
 }
 
 .contenido_fecha {
     margin-top: 25px;
-    position: relative;
-
+    
+    
 
 }
 
@@ -162,10 +165,32 @@ h4{
 
 /*Estilo Game*/
 
+.titulo-tabla{
+    display: inline-block;
+    width: 35vw;
+    padding: 46px;
+    font-size: 22px;
+    bottom: 25%;
+    justify-content: end;
+}
+ 
+.titulo-tabla-h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-tabla{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    margin-right: 9%;
+    object-fit: contain;
+   
+}
+
 .tabla_game{
     background-color: rgb(228, 224, 234);
-    display: table;
-    
+    /* display: table; */
     width: 60vw;
     height: 30vh;
     border-collapse: collapse; /*junta todos los bordes, comparte, no los separa*/
@@ -174,9 +199,10 @@ h4{
     /* border-collapse:separate;
     border-spacing: 20px; distancia entre los bordes de las celdas */
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
-
+    justify-content: space-around;
+    top:0;
   
 }
 
@@ -187,20 +213,12 @@ th,td {
     border: none;
 }
 
-    /*background-color: #675151;
-    table-layout: fixed;
-    width: 299px;
-    border-collapse: collapse;
-    border: 3px solid black;
+.caja-inf-game{
+    display: inline-block;
+    align-items: center;
+    padding-left: 25%;
+    margin-top: 5%;
 }
-
-.encabezado_tabla{
-    border: 3px solid black;
-}
-
-.cuerpo_tabla{
-    border: 2px solid black;
-} */
 
 .contenedor_rules{
     display: inline;
@@ -214,6 +232,8 @@ th,td {
 .contenedor_rules_1{
     display: block;
     padding: 15px;
+    justify-content: center;
+    align-content: center;
 }
 
 .contenedor_rules_2{
