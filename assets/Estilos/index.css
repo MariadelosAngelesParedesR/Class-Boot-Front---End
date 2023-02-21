@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
-body{
+body {
     background-color: #ffffff;
 }
 
@@ -18,28 +18,32 @@ body{
     background-repeat: round;
     background-size: cover;
     width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
 }
 
 
 
 
 h1 {
-    display: inline-block;
     bottom: 85px;
     color: black;
-
+    justify-content: flex-start;
 }
-.container-img-logo{
+
+.container-img-logo {
     display: inline-flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 6%;
-    
+
 }
 
 #img_logo {
     width: 70px;
-    
+    margin-right: 3rem;
+    margin-top: 8rem;
 }
 
 h2 {
@@ -47,18 +51,13 @@ h2 {
     color: white;
     top: 25px;
     text-align: center;
-
 }
 
 nav {
-    /* display:inline-block; */
     display: inline-grid;
     font-size: 18px;
     padding-top: 7vw;
     padding-left: 13vw;
-    /* flex: content; */
-    /* margin-top: 54px; */
-    /* width: 35px; */
 }
 
 
@@ -96,8 +95,8 @@ a[href="#"] {
 
 .contenido_fecha {
     margin-top: 25px;
-    
-    
+
+
 
 }
 
@@ -105,22 +104,22 @@ p {
     color: black;
 }
 
-main{
+main {
     background-position: center;
     display: flex;
     justify-content: space-around;
     /* margin-top: 126px;
     margin-left: 143px;  */
-    
+
 }
 
-h5{
+h5 {
     text-decoration: dashed;
 }
 
 /*Estilo de About*/
 
-.contenido_mision{
+.contenido_mision {
     display: inline-flex;
     float: none;
     margin-left: 5%;
@@ -129,34 +128,34 @@ h5{
 
 }
 
-h4{
-    color:black;
+h4 {
+    color: black;
     margin-top: 18px;
 }
 
 
 .mision_about {
     text-align: justify;
-    color:black;
+    color: black;
     margin-top: 10px;
 
 }
 
 /*Estilo de Contact*/
 
-.contenido_contacto{
+.contenido_contacto {
     display: inline-flex;
     margin-left: 47px;
 
 }
 
-.contact_h4{
+.contact_h4 {
     text-align: left;
     margin-top: 9px;
 
 }
 
-.email{
+.email {
     text-decoration: underline;
     color: blue;
 
@@ -165,7 +164,7 @@ h4{
 
 /*Estilo Game*/
 
-.titulo-tabla{
+.titulo-tabla {
     display: inline-flex;
     flex-direction: column;
     width: 55vw;
@@ -175,27 +174,28 @@ h4{
     justify-content: end;
     align-items: center;
 }
- 
-.titulo-tabla-h4{
+
+.titulo-tabla-h4 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.container-tabla{
+.container-tabla {
     display: flex;
     justify-content: end;
     align-items: flex-start;
     margin-right: 9%;
     object-fit: contain;
-   
+
 }
 
-.tabla_game{
+.tabla_game {
     background-color: rgb(228, 224, 234);
     /* display: table; */
     width: 60vw;
     height: 30vh;
-    border-collapse: collapse; /*junta todos los bordes, comparte, no los separa*/
+    border-collapse: collapse;
+    /*junta todos los bordes, comparte, no los separa*/
     border: 1px solid black;
     border-radius: 6px;
     /* border-collapse:separate;
@@ -204,18 +204,20 @@ h4{
     font-size: 18px;
     text-align: center;
     justify-content: space-around;
-    top:0;
-  
+    top: 0;
+
 }
 
-th,td {
+th,
+td {
     border: 1px solid black;
 }
-.F_9sep{
+
+.F_9sep {
     border: none;
 }
 
-.caja-inf-game{
+.caja-inf-game {
     display: flex;
     align-items: center;
     padding-left: 25%;
@@ -224,14 +226,14 @@ th,td {
     flex-direction: column;
 }
 
-.e-mail{
-  display: inline-block;
-  align-self: flex-end;
+.e-mail {
+    display: inline-block;
+    align-self: flex-end;
 }
 
 /*Rules*/
 
-.contenedor_rules{
+.contenedor_rules {
     display: inline;
     float: right;
     padding: 5%;
@@ -240,38 +242,65 @@ th,td {
     text-align: justify;
     width: 70vw;
 }
-.contenedor_rules_1{
+
+.contenedor_rules_1 {
     display: block;
     padding: 15px;
     justify-content: center;
     align-content: center;
 }
 
-.titulo_lista{
+.titulo_lista {
     text-align: center;
     justify-content: center;
     font-size: 23px;
     margin-bottom: 5%;
 }
 
-.contenedor_rules_2{
+.contenedor_rules_2 {
     display: block;
     padding: 15px;
 }
 
-.con_2_lista{
-   margin-left: 10%;
-   list-style-type:upper-latin;
+.con_2_lista {
+    margin-left: 10%;
+    list-style-type: upper-latin;
 }
 
-.contenedor_rules_3{
+.contenedor_rules_3 {
     display: block;
     padding: 15px;
 }
 
 /*registro*/
+/*  */
 
-form{
-    display: flexbox;
+.imgReg{
+    width: 35%;
+    display: inline;
+    margin-top: 1rem;
+    margin-left: 14rem;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+.con_formulario {
+    display: flex;
+    width: 80vw;
     margin: 1rem;
+    flex-direction: column;
+    background-color: olivedrab;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 14px;
+
+}
+
+.titulo_reg {
+    text-align: center;
+}
+
+form {
+
+    gap: 1rem;
 }

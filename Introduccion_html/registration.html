@@ -12,10 +12,12 @@
 
 <body>
     <header class="cabeza-body">
-        <img id="img_logo" src="../assets/img/Logo_Mighty_ducks-01.png" alt="">
         <h1>Mighty Ducks Hockey League</h1>
-        <h2>About MDHL</h2>
+        <img id="img_logo" src="../assets/img/Logo_Mighty_ducks-01.png" alt="">
     </header>
+
+    <h2>About MDHL</h2>
+
     <nav>
         <a href="../Introduccion_html/Index.html">Home</a>
         <a href="../Introduccion_html/About_MDHL.html">About MDHL</a>
@@ -24,8 +26,9 @@
         <a href="../Introduccion_html/rules.html">Rules</a>
         <a href="#">Registro</a>
     </nav>
-
-    <h3>Registration Form</h3>
+    <img class="imgReg" src="../assets/img/hockey_2.jpg" alt="">
+    <section class="con_formulario">
+    <h3 class="titulo_reg">Registration Form</h3>
     <form action="./show_data.html">
         <p style="color:red;"> <strong>* campos obligatorios</strong></p>
         <fieldset>
@@ -59,13 +62,109 @@
             <input type="radio" name="genero" value="Female">
             Male
             <input type="radio" name="genero" value="Male">
+
+            <label
+            for="grade">Grade:</label>
+            Pre-School
+            <input type="checkbox" name="grade" value="Pre-School">
+            1st
+            <input type="radio" name="grade" value="1">
+
+            2nd
+            <input type="radio" name="grade" value="2">
+
+            3rd
+            <input type="radio" name="grade" value="3">
+
+            4th
+            <input type="radio" name="grade" value="4">
+
+            5th
+            <input type="radio" name="grade" value="5">
    
         </fieldset>
+
+        <fieldset>
+            <p> Which elemantary school do you live near?</p>
+            <h4>Closest School:</h4>
+
+            AJ Katzenmaier
+            <input type="checkbox" name="closest" value="AJ">
+
+            Greenbay
+            <input type="checkbox" 
+            name="closest" value="Greenbay">
+
+            Howard A Yeager
+            <input type="checkbox" name="closest" value="Howard">
+
+            Marjorie P Hart
+            <input type="checkbox" name="closest" value="Marjorie">
+
+            North Elementary
+            <input type="checkbox" name="closest" value="North">
+
+            South Elementary
+            <input type="checkbox" name="closest" value="South">
+        </fieldset>
+
+        <fieldset>
+            <p>What position(s) do you normally play? (check all that apply)</p>
+
+            Forward
+            <input type="checkbox" name="position" value="Forward">
+
+            Defense 
+            <input type="checkbox" name="position" value="Defense">
+
+            Midfield
+            <input type="checkbox" name="position" value="Midfield">
+
+            Goalkeeper
+            <input type="checkbox" name="position" value="Goalkeeper">
+        </fieldset>
+
+        <fieldset>
+            <p>Uniform Size</p>
+
+            Youth Smal 
+            <input type="radio" name="size" value="Y_S">
+
+            Youth Medium
+            <input type="radio" name="size" value="Y_M">
+
+            Youth Large
+            <input type="radio" name="size" value="Y_L">
+
+            Small 
+            <input type="radio" name="size" value="S">
+
+            Medium
+            <input type="radio" name="size" value="M">
+
+            Large 
+            <input type="radio" name="size" value="L">
+
+            Extra-Large 
+            <input type="radio" name="size" value="XL">
+        </fieldset>
+
+        <h4>Permission to Play</h4>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and i will abidie by all the rules of the Mighty Duchs Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, i hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
+        <p>By signing below, i herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that i have read the cancellation policy and agree to its terms.
+        </p>
+
+        <p>Parent/GuardianSignature:</p>
+        <p>Date:</p> 
+
         
         <input type="submit" value="enviar">
 
 
     </form>
+    </section>
+   
+
 </body>
 
 </html>
