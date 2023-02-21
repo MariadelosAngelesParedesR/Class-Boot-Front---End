@@ -268,3 +268,10 @@ th,td {
     display: block;
     padding: 15px;
 }
+
+/*registro*/
+
+form{
+    display: flexbox;
+    margin: 1rem;
+}

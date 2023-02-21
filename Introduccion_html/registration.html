@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/Estilos/index.css">
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="shortcut icon" href="../assets/img/Logo_Mighty_ducks-01.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabeza-body">
+        <img id="img_logo" src="../assets/img/Logo_Mighty_ducks-01.png" alt="">
+        <h1>Mighty Ducks Hockey League</h1>
+        <h2>About MDHL</h2>
+    </header>
+    <nav>
+        <a href="../Introduccion_html/Index.html">Home</a>
+        <a href="../Introduccion_html/About_MDHL.html">About MDHL</a>
+        <a href="../Introduccion_html/Contact.html">Contact</a>
+        <a href="../Introduccion_html/game_info.html">Game Info</a>
+        <a href="../Introduccion_html/rules.html">Rules</a>
+        <a href="#">Registro</a>
+    </nav>
+
+    <h3>Registration Form</h3>
+    <form action="./show_data.html">
+        <p style="color:red;"> <strong>* campos obligatorios</strong></p>
+        <fieldset>
+            <legend>Personal Data</legend> 
+            <label for="apellido">Player's First Name:</label>
+            <input required name="Apellido" type="text" id="apellido">
+            
+            <label for="nombre">Last Name:</label>
+            <input required name="Nombre" type="text" id="nombre"><span style="color: red;">*</span>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Location</legend>
+            <label for="direccion">Street Address:</label>
+            <input name="Direccion" type="text" id="direccion">
+        
+            <label for="ciudad">City:</label>
+            <input name="Ciudad" type="text" id="ciudad">
+
+            <label for="code">Zip Code:</label>
+            <input name="Cod_Postal" type="text-number" id="codpostal">
+        </fieldset>
+
+        <fieldset>
+            <label for="f_nac">Birth Date (mm/dd/yyyy)</label>
+            <input name="Fecha_Nac" type="date" id="fechaN">
+
+            <label
+            for="genero">Gender:</label>
+            Female
+            <input type="radio" name="genero" value="Female">
+            Male
+            <input type="radio" name="genero" value="Male">
+   
+        </fieldset>
+        
+        <input type="submit" value="enviar">
+
+
+    </form>
+</body>
+
+</html>
